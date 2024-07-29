@@ -1,0 +1,41 @@
+  body {
+            background-color: #121212; /* Dark background */
+            color: #ffffff; /* Light text */
+            margin: 0;
+            font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+        }
+        .navbar-custom {
+            background-color: #333; /* Slightly lighter dark shade for navbar */
+        }
+        .btn-custom {
+            background-color: #0069d9; /* Custom button color */
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+        .content-section {
+            text-align: center;
+            padding-top: 150px; /* Centering content vertically */
+        }
+
+
+  .form-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                }
+
+
+                .register-form {
+                    width: 100%;
+                    max-width: 330px;
+                    padding: 15px;
+                }
+
+ .login-form {
+            width: 100%;
+            max-width: 330px;
+            padding: 15px;
+        }
